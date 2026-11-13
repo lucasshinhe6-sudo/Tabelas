@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+}
+
+.tabela-planos {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    table-layout: fixed;
+}
+.tabela-planos tr:nth-child(2) td {
+    font-size: 35px;
+    font-weight: 10px;
+}
+
+.tabela-planos th {
+    padding: 14px 10px;
+    font-size: 14px;
+}
+.tabela-planos th,
+.tabela-planos td {
+    border:1px solid #ddd;
+    padding: 20px 10px;
+}
+
+.titulo {
+    background-color: #f2f2f2;
+    color: black !important;
+    text-align: left;
+}
+
+.preco1{
+    background-color: rgb(133, 204, 255);
+    color: white;
+}
+
+.preco2{
+    background-color: #538fff;
+    color: white;
+}
+
+.preco3{
+    background-color: #896cff;
+    color: white;
+}
+
+.tabela-planos td {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 13px;
+    height: 59px;
+}
+
+.tabela-planos td:first-child {
+    text-align: left;
+    width: 25%;
+}
+
+.botoes td {
+    height: 60px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #c5cbd3;
+    padding: 9px 24px;
+    color: #7040a0;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.botoes td:nth-child(2) button {
+    background-color: rgb(133, 204, 255);
+    color: white;
+    border-radius: 4px;
+}
+
+.botoes td:nth-child(3) button {
+    background-color: #538fff;
+    color: white;
+    border-radius: 4px;
+}
+
+.botoes td:nth-child(4) button {
+    background-color: #896cff;
+    color: white;
+    border-radius: 4px;
+}

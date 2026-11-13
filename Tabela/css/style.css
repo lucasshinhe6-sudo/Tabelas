@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    padding: 5px;
+}
+
+.tabela-planos {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    table-layout: fixed;
+}
+
+.tabela-planos th {
+    padding: 14px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.titulo {
+    background-color: #f2f2f2;
+    color: black !important;
+    text-align: left;
+}
+
+.empresa {
+    background-color: #555b65;
+}
+
+.avancar {
+    background-color: #e8496b;
+}
+
+.starter {
+    background-color: #6ccc65;
+}
+
+.tabela-planos td {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 13px;
+    height: 59px;
+}
+
+.tabela-planos td:first-child {
+    text-align: left;
+    width: 25%;
+}
+
+.tabela-planos td:nth-child(3) {
+    background-color: #f3f5f8;
+}
+
+.botoes td {
+    height: 60px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #c5cbd3;
+    padding: 9px 24px;
+    color: #7040a0;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.botoes td:nth-child(3) button {
+    background-color: #e8496b;
+    color: white;
+    border: 1px solid #e8496b;
+}
